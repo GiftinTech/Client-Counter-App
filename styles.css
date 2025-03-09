@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow: hidden;
+}
+
 body {
     background-color: #040224;
     background-size: cover;
@@ -13,7 +17,7 @@ body {
 }
 
 .container {
-    margin: 150px auto;
+    margin: 250px auto;
     border: 2px solid #0b037cbe;
     border-radius: 50px;
     box-shadow: 0 0 10px 10px #050141be;;
@@ -103,6 +107,6 @@ button {
 
 @media (max-width: 490px) {
     .container {
-        margin-top: 200px;
+        margin-top: 150px;
     }
 }

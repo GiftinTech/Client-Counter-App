@@ -4,16 +4,13 @@
     box-sizing: border-box;
 }
 
-html {
-    overflow: hidden;
-}
-
 body {
     background-color: #040224;
     background-size: cover;
     font-family: 'Roboto', 'Open Sans', sans-serif;
     text-align: center;
     position: relative;
+    height: 50vh;
 }
 
 .container {
